@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "ConUnit_Soap_Dotnet_GR06.ec.edu.monster.controlador.ConversionController",
+    "Method": "CelsiusToFahrenheit",
+    "RelativePath": "Conversion/CelsiusToFahrenheit/{celsius}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "celsius",
+        "Type": "System.Double",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConUnit_Soap_Dotnet_GR06.ec.edu.monster.controlador.ConversionController",
+    "Method": "FahrenheitToCelsius",
+    "RelativePath": "Conversion/FahrenheitToCelsius/{fahrenheit}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fahrenheit",
+        "Type": "System.Double",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

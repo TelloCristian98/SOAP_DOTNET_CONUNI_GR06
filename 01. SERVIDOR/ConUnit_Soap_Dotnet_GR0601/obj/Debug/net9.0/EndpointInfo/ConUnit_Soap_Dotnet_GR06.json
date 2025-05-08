@@ -1,0 +1,96 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "ConUnit_Soap_Dotnet_GR06",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Conversion/CelsiusToFahrenheit/{celsius}": {
+      "get": {
+        "tags": [
+          "Conversion"
+        ],
+        "parameters": [
+          {
+            "name": "celsius",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Conversion/FahrenheitToCelsius/{fahrenheit}": {
+      "get": {
+        "tags": [
+          "Conversion"
+        ],
+        "parameters": [
+          {
+            "name": "fahrenheit",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
