@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="f5930f08-333c-4a63-8146-e087a1942b11" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61912/ec.edu.monster.controlador/Conversion.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Conversión.wsdl" MetadataType="Wsdl" ID="0c9dbe61-4a11-4449-9ef1-a89054f6078f" SourceId="1" SourceUrl="http://localhost:61912/ec.edu.monster.controlador/Conversion.svc?wsdl" />
+    <MetadataFile FileName="Conversion.xsd" MetadataType="Schema" ID="c1c94b8e-d2d2-4b9e-96ac-c3f550c66b75" SourceId="1" SourceUrl="http://localhost:61912/ec.edu.monster.controlador/Conversion.svc?xsd=xsd0" />
+    <MetadataFile FileName="Conversion1.xsd" MetadataType="Schema" ID="c92b1ee2-2e87-4cc9-b512-6e33ef8dedf1" SourceId="1" SourceUrl="http://localhost:61912/ec.edu.monster.controlador/Conversion.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
