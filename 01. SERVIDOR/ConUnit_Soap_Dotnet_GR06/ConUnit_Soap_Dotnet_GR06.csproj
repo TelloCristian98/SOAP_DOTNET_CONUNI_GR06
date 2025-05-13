@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{13F7AB7A-4CBF-4053-B538-FA349D137E96}</ProjectGuid>
+    <ProjectGuid>{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -68,7 +68,8 @@
     <Compile Include="ec.edu.monster.controlador\Conversion.svc.cs">
       <DependentUpon>Conversion.svc</DependentUpon>
     </Compile>
-    <Compile Include="ec.edu.monster.modelo\IConversión.cs" />
+    <Compile Include="ec.edu.monster.modelo\Credentials.cs" />
+    <Compile Include="ec.edu.monster.controlador\IConversion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -95,9 +96,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61912</DevelopmentServerPort>
+          <DevelopmentServerPort>50176</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61912/</IISUrl>
+          <IISUrl>http://localhost:50176/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

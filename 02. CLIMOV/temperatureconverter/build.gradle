@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0' // Actualizado a 8.1.0
+        classpath 'com.github.bjornvester.wsdl2java:com.github.bjornvester.wsdl2java.gradle.plugin:2.0.2'
+    }
+}
+
+plugins {
+    id 'com.android.application' version '8.1.0' apply false // Actualizado a 8.1.0
+    id 'com.android.library' version '8.1.0' apply false
+    id 'com.github.bjornvester.wsdl2java' version '2.0.2' apply false
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}

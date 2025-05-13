@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\ConUnit_Soap_Dotnet_GR06.props" />
-</Project>

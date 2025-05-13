@@ -1,18 +1,43 @@
 ﻿using System;
-using System.ServiceModel;
-using ConUnit_Soap_Dotnet_GR06.ec.edu.monster.modelo;
+using ec.edu.monster.modelo;
 
-namespace ConUnit_Soap_Dotnet_GR06.ec.edu.monster.controlador
+namespace ec.edu.monster.controlador
 {
-    public class Conversión : IConversión
+    public class Conversion : IConversion
     {
-        public double CelsiusToFahrenheit(double celsius)
+        private bool isAuthenticated = false;
+
+        public bool Login(Credentials credentials)
         {
+            // Verifica las credenciales (usuario: monster, contraseña: monster)
+            if (credentials != null &&
+                credentials.Username == "monster" &&
+                credentials.Password == "monster")
+            {
+                isAuthenticated = true;
+                return true;
+            }
+            isAuthenticated = false;
+            return false;
+        }
+
+        public double ConvertirCelsiusAFahrenheit(double celsius)
+        {
+            // Verifica si el usuario está autenticado
+            //if (!isAuthenticated)
+            //{
+            //    throw new UnauthorizedAccessException("Acceso no autorizado. Debe iniciar sesión primero.");
+            //}
             return (celsius * 9 / 5) + 32;
         }
 
-        public double FahrenheitToCelsius(double fahrenheit)
+        public double ConvertirFahrenheitACelsius(double fahrenheit)
         {
+            // Verifica si el usuario está autenticado
+            //if (!isAuthenticated)
+            //{
+            //    throw new UnauthorizedAccessException("Acceso no autorizado. Debe iniciar sesión primero.");
+            //}
             return (fahrenheit - 32) * 5 / 9;
         }
     }

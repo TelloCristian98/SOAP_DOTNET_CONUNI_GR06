@@ -1,6 +1,0 @@
-@ConUnit_Soap_Dotnet_GR06_HostAddress = http://localhost:5159
-
-GET {{ConUnit_Soap_Dotnet_GR06_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

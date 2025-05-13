@@ -1,0 +1,7 @@
+C:\Users\Cristian Tello\Documents\00. SOAP_SIN_BDD_GR06\02. SOAP_DOTNET_CONUNI_GR06\01. SERVIDOR\ConUnit_Soap_Dotnet_GR06\bin\ConUnit_Soap_Dotnet_GR06.dll.config
+C:\Users\Cristian Tello\Documents\00. SOAP_SIN_BDD_GR06\02. SOAP_DOTNET_CONUNI_GR06\01. SERVIDOR\ConUnit_Soap_Dotnet_GR06\bin\ConUnit_Soap_Dotnet_GR06.dll
+C:\Users\Cristian Tello\Documents\00. SOAP_SIN_BDD_GR06\02. SOAP_DOTNET_CONUNI_GR06\01. SERVIDOR\ConUnit_Soap_Dotnet_GR06\bin\ConUnit_Soap_Dotnet_GR06.pdb
+C:\Users\Cristian Tello\Documents\00. SOAP_SIN_BDD_GR06\02. SOAP_DOTNET_CONUNI_GR06\01. SERVIDOR\ConUnit_Soap_Dotnet_GR06\obj\Release\ConUnit_Soap_Dotnet_GR06.csproj.AssemblyReference.cache
+C:\Users\Cristian Tello\Documents\00. SOAP_SIN_BDD_GR06\02. SOAP_DOTNET_CONUNI_GR06\01. SERVIDOR\ConUnit_Soap_Dotnet_GR06\obj\Release\ConUnit_Soap_Dotnet_GR06.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Tello\Documents\00. SOAP_SIN_BDD_GR06\02. SOAP_DOTNET_CONUNI_GR06\01. SERVIDOR\ConUnit_Soap_Dotnet_GR06\obj\Release\ConUnit_Soap_Dotnet_GR06.dll
+C:\Users\Cristian Tello\Documents\00. SOAP_SIN_BDD_GR06\02. SOAP_DOTNET_CONUNI_GR06\01. SERVIDOR\ConUnit_Soap_Dotnet_GR06\obj\Release\ConUnit_Soap_Dotnet_GR06.pdb

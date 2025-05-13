@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\ConUnitService</_PublishTargetUrl>
+    <History>True|2025-05-13T20:47:08.2068741Z||;True|2025-05-13T13:02:21.7858964-05:00||;True|2025-05-13T07:30:57.6803819-05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ConUnit_Soap_Dotnet_GR06.dll">
+      <publishTime>05/13/2025 15:47:07</publishTime>
+    </File>
+    <File Include="bin/ConUnit_Soap_Dotnet_GR06.pdb">
+      <publishTime>05/13/2025 15:47:07</publishTime>
+    </File>
+    <File Include="Conversion.svc">
+      <publishTime>05/12/2025 16:59:42</publishTime>
+    </File>
+    <File Include="ec.edu.monster.controlador/Conversion.svc">
+      <publishTime>05/13/2025 12:54:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/13/2025 13:02:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
