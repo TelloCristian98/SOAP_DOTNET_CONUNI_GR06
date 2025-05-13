@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|c:\\users\\cristian tello\\documents\\00. soap_sin_bdd_gr06\\02. soap_dotnet_conuni_gr06\\01. servidor\\conunit_soap_dotnet_gr06\\ec.edu.monster.controlador\\conversion.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|solutionrelative:ec.edu.monster.controlador\\conversion.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|c:\\users\\cristian tello\\documents\\00. soap_sin_bdd_gr06\\02. soap_dotnet_conuni_gr06\\01. servidor\\conunit_soap_dotnet_gr06\\ec.edu.monster.controlador\\iconversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|solutionrelative:ec.edu.monster.controlador\\iconversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|c:\\users\\cristian tello\\documents\\00. soap_sin_bdd_gr06\\02. soap_dotnet_conuni_gr06\\01. servidor\\conunit_soap_dotnet_gr06\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|c:\\users\\cristian tello\\documents\\00. soap_sin_bdd_gr06\\02. soap_dotnet_conuni_gr06\\01. servidor\\conunit_soap_dotnet_gr06\\ec.edu.monster.controlador\\conversion.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|solutionrelative:ec.edu.monster.controlador\\conversion.svc||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|c:\\users\\cristian tello\\documents\\00. soap_sin_bdd_gr06\\02. soap_dotnet_conuni_gr06\\01. servidor\\conunit_soap_dotnet_gr06\\ec.edu.monster.modelo\\credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF82C2D8-0A3F-4BCE-9012-CE05807DD272}|ConUnit_Soap_Dotnet_GR06.csproj|solutionrelative:ec.edu.monster.modelo\\credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T17:54:45.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conversion.svc",
+              "DocumentMoniker": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\ec.edu.monster.controlador\\Conversion.svc",
+              "RelativeDocumentMoniker": "ec.edu.monster.controlador\\Conversion.svc",
+              "ToolTip": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\ec.edu.monster.controlador\\Conversion.svc",
+              "RelativeToolTip": "ec.edu.monster.controlador\\Conversion.svc",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
+              "WhenOpened": "2025-05-13T17:54:20.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Credentials.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\ec.edu.monster.modelo\\Credentials.cs",
+              "RelativeDocumentMoniker": "ec.edu.monster.modelo\\Credentials.cs",
+              "ToolTip": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\ec.edu.monster.modelo\\Credentials.cs",
+              "RelativeToolTip": "ec.edu.monster.modelo\\Credentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T17:50:58.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IConversion.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\ec.edu.monster.controlador\\IConversion.cs",
+              "RelativeDocumentMoniker": "ec.edu.monster.controlador\\IConversion.cs",
+              "ToolTip": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\ec.edu.monster.controlador\\IConversion.cs",
+              "RelativeToolTip": "ec.edu.monster.controlador\\IConversion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:18:00.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conversion.svc.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\ec.edu.monster.controlador\\Conversion.svc.cs",
+              "RelativeDocumentMoniker": "ec.edu.monster.controlador\\Conversion.svc.cs",
+              "ToolTip": "C:\\Users\\Cristian Tello\\Documents\\00. SOAP_SIN_BDD_GR06\\02. SOAP_DOTNET_CONUNI_GR06\\01. SERVIDOR\\ConUnit_Soap_Dotnet_GR06\\ec.edu.monster.controlador\\Conversion.svc.cs",
+              "RelativeToolTip": "ec.edu.monster.controlador\\Conversion.svc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:14:13.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
