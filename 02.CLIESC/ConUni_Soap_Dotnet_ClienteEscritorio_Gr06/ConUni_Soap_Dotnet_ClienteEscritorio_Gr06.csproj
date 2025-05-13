@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ConversionServiceReference\Reference.cs">
+    <Compile Include="Connected Services\ConversionServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -85,13 +85,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="Connected Services\ConversionServiceReference\Conversion.xsd">
+    <None Include="Connected Services\ConversionServiceReference1\Conversion.wsdl" />
+    <None Include="Connected Services\ConversionServiceReference1\Conversion.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ConversionServiceReference\Conversion1.xsd">
+    <None Include="Connected Services\ConversionServiceReference1\Conversion1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ConversionServiceReference\Conversión.wsdl" />
+    <None Include="Connected Services\ConversionServiceReference1\Conversion2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -109,22 +112,22 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ConversionServiceReference\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\ConversionServiceReference\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\ConversionServiceReference\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\ConversionServiceReference\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
+    <WCFMetadataStorage Include="Connected Services\ConversionServiceReference1\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="imagenes\monster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ConversionServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ConversionServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ConversionServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

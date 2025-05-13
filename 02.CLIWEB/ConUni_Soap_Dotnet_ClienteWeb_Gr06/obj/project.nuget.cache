@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d+2VDMJKw1o=",
+  "dgSpecHash": "+WWL9cXIf9k=",
   "success": true,
-  "projectFilePath": "D:\\Aquitectura\\SOAP_SIN_DBB_GR06\\02.SOAP_DOTNET_CONUNI_GR06\\02.CLIWEB\\ConUni_Soap_Dotnet_ClienteWeb_Gr06\\ConUni_Soap_Dotnet_ClienteWeb_Gr06.csproj",
+  "projectFilePath": "C:\\Users\\Camila\\Documents\\GITHUB\\SOAP_DOTNET_CONUNI_GR06\\02.CLIWEB\\ConUni_Soap_Dotnet_ClienteWeb_Gr06\\ConUni_Soap_Dotnet_ClienteWeb_Gr06.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camila\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Camila\\.nuget\\packages\\microsoft.extensions.objectpool\\6.0.16\\microsoft.extensions.objectpool.6.0.16.nupkg.sha512",

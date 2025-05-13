@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ConUni_Soap_Dotnet_ClienteWeb_Gr06.m5kyi5tmas.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-do\u002BM75naOpG4YOHWS9NHibZ/RtnfiYnOGmlrew4pwiI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1152"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022do\u002BM75naOpG4YOHWS9NHibZ/RtnfiYnOGmlrew4pwiI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:24:13 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1152"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022do\u002BM75naOpG4YOHWS9NHibZ/RtnfiYnOGmlrew4pwiI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 22:19:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ConUni_Soap_Dotnet_ClienteWeb_Gr06/ConUni_Soap_Dotnet_ClienteWeb_Gr06.m5kyi5tmas.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ConUni_Soap_Dotnet_ClienteWeb_Gr06.m5kyi5tmas.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m5kyi5tmas"},{"Name":"integrity","Value":"sha256-do\u002BM75naOpG4YOHWS9NHibZ/RtnfiYnOGmlrew4pwiI="},{"Name":"label","Value":"_content/ConUni_Soap_Dotnet_ClienteWeb_Gr06/ConUni_Soap_Dotnet_ClienteWeb_Gr06.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1152"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022do\u002BM75naOpG4YOHWS9NHibZ/RtnfiYnOGmlrew4pwiI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:24:13 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1152"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022do\u002BM75naOpG4YOHWS9NHibZ/RtnfiYnOGmlrew4pwiI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 22:19:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ConUni_Soap_Dotnet_ClienteWeb_Gr06/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

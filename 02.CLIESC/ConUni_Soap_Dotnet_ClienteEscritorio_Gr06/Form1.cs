@@ -45,7 +45,7 @@ namespace ConUni_Soap_Dotnet_ClienteEscritorio_Gr06
             if (double.TryParse(textBox1.Text.Replace(',', '.'), System.Globalization.NumberStyles.Any,
                     System.Globalization.CultureInfo.InvariantCulture, out double celsius))
             {
-                double fahrenheit = controlador.CelsiusToFahrenheit(celsius);
+                double fahrenheit = controlador.ConvertirCelsiusAFahrenheitAsync(celsius);
                 label4.Text = "El resultado es: " + fahrenheit.ToString("F2") + " grados fahrenheit";
             }
             else
@@ -65,7 +65,7 @@ namespace ConUni_Soap_Dotnet_ClienteEscritorio_Gr06
             if (double.TryParse(textBox2.Text.Replace(',', '.'), System.Globalization.NumberStyles.Any,
                     System.Globalization.CultureInfo.InvariantCulture, out double fahrenheit))
             {
-                double celsius = controlador.FahrenheitToCelsius(fahrenheit);
+                double celsius = controlador.ConvertirFahrenheitACelsiusAsync(fahrenheit);
                 label7.Text = "El resultado es: " + celsius.ToString("F2") + " grados celsius";
             }
             else

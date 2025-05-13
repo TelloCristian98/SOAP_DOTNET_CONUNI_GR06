@@ -1,4 +1,4 @@
-﻿using ConUni_Soap_Dotnet_ClienteEscritorio_Gr06.ConversionServiceReference;
+﻿using ConUni_Soap_Dotnet_ClienteEscritorio_Gr06.ConversionServiceReference1;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,24 +9,24 @@ namespace ConUni_Soap_Dotnet_ClienteEscritorio_Gr06.Controlador
 {
     public class ConversionControlador
     {
-        private readonly ConversiónClient modelo;
+        private readonly ConversionClient modelo;
         private Login loginForm;
         private Form1 conversionForm;
 
         public ConversionControlador(Login loginForm)
         {
-            modelo = new ConversiónClient();
+            modelo = new ConversionClient();
             this.loginForm = loginForm;
         }
 
-        public double CelsiusToFahrenheit(double celsius)
+        public double ConvertirCelsiusAFahrenheitAsync(double celsius)
         {
-            return modelo.CelsiusToFahrenheit(celsius);
+            return modelo.ConvertirCelsiusAFahrenheit(celsius);
         }
 
-        public double FahrenheitToCelsius(double fahrenheit)
+        public double ConvertirFahrenheitACelsiusAsync(double fahrenheit)
         {
-            return modelo.FahrenheitToCelsius(fahrenheit);
+            return modelo.ConvertirFahrenheitACelsius(fahrenheit);
         }
     }
 }

@@ -1,4 +1,4 @@
-using ConversionServiceReference;
+using ConversionServiceReference1;
 using Microsoft.AspNetCore.Mvc;
 
 public class HomeController : Controller
@@ -50,16 +50,16 @@ public class HomeController : Controller
 
         try
         {
-            var client = new ConversiónClient();
+            var client = new ConversionClient();
 
             if (tipo == "CtoF")
             {
-                double valor = await client.CelsiusToFahrenheitAsync(temperatura);
+                double valor = await client.ConvertirCelsiusAFahrenheitAsync(temperatura);
                 resultado = $"{temperatura} °C = {valor:F2} °F";
             }
             else
             {
-                double valor = await client.FahrenheitToCelsiusAsync(temperatura);
+                double valor = await client.ConvertirFahrenheitACelsiusAsync(temperatura);
                 resultado = $"{temperatura} °F = {valor:F2} °C";
             }
 

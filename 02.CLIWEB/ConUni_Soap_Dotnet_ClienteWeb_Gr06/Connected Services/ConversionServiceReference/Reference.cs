@@ -7,30 +7,71 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConversionServiceReference
+namespace ConversionServiceReference1
 {
+    using System.Runtime.Serialization;
     
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ConversionServiceReference.IConversión")]
-    public interface IConversión
+    [System.Runtime.Serialization.DataContractAttribute(Name="Credentials", Namespace="http://schemas.datacontract.org/2004/07/ec.edu.monster.modelo")]
+    public partial class Credentials : object
     {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConversión/CelsiusToFahrenheit", ReplyAction="http://tempuri.org/IConversión/CelsiusToFahrenheitResponse")]
-        System.Threading.Tasks.Task<double> CelsiusToFahrenheitAsync(double celsius);
+        private string PasswordField;
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConversión/FahrenheitToCelsius", ReplyAction="http://tempuri.org/IConversión/FahrenheitToCelsiusResponse")]
-        System.Threading.Tasks.Task<double> FahrenheitToCelsiusAsync(double fahrenheit);
+        private string UsernameField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Password
+        {
+            get
+            {
+                return this.PasswordField;
+            }
+            set
+            {
+                this.PasswordField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Username
+        {
+            get
+            {
+                return this.UsernameField;
+            }
+            set
+            {
+                this.UsernameField = value;
+            }
+        }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
-    public interface IConversiónChannel : ConversionServiceReference.IConversión, System.ServiceModel.IClientChannel
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ConversionServiceReference1.IConversion")]
+    public interface IConversion
+    {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConversion/Login", ReplyAction="http://tempuri.org/IConversion/LoginResponse")]
+        System.Threading.Tasks.Task<bool> LoginAsync(ConversionServiceReference1.Credentials credentials);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConversion/ConvertirCelsiusAFahrenheit", ReplyAction="http://tempuri.org/IConversion/ConvertirCelsiusAFahrenheitResponse")]
+        System.Threading.Tasks.Task<double> ConvertirCelsiusAFahrenheitAsync(double celsius);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IConversion/ConvertirFahrenheitACelsius", ReplyAction="http://tempuri.org/IConversion/ConvertirFahrenheitACelsiusResponse")]
+        System.Threading.Tasks.Task<double> ConvertirFahrenheitACelsiusAsync(double fahrenheit);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    public interface IConversionChannel : ConversionServiceReference1.IConversion, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
-    public partial class ConversiónClient : System.ServiceModel.ClientBase<ConversionServiceReference.IConversión>, ConversionServiceReference.IConversión
+    public partial class ConversionClient : System.ServiceModel.ClientBase<ConversionServiceReference1.IConversion>, ConversionServiceReference1.IConversion
     {
         
         /// <summary>
@@ -40,47 +81,52 @@ namespace ConversionServiceReference
         /// <param name="clientCredentials">Credenciales de cliente</param>
         static partial void ConfigureEndpoint(System.ServiceModel.Description.ServiceEndpoint serviceEndpoint, System.ServiceModel.Description.ClientCredentials clientCredentials);
         
-        public ConversiónClient() : 
-                base(ConversiónClient.GetDefaultBinding(), ConversiónClient.GetDefaultEndpointAddress())
+        public ConversionClient() : 
+                base(ConversionClient.GetDefaultBinding(), ConversionClient.GetDefaultEndpointAddress())
         {
-            this.Endpoint.Name = EndpointConfiguration.BasicHttpBinding_IConversión.ToString();
+            this.Endpoint.Name = EndpointConfiguration.BasicHttpBinding_IConversion.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public ConversiónClient(EndpointConfiguration endpointConfiguration) : 
-                base(ConversiónClient.GetBindingForEndpoint(endpointConfiguration), ConversiónClient.GetEndpointAddress(endpointConfiguration))
-        {
-            this.Endpoint.Name = endpointConfiguration.ToString();
-            ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
-        }
-        
-        public ConversiónClient(EndpointConfiguration endpointConfiguration, string remoteAddress) : 
-                base(ConversiónClient.GetBindingForEndpoint(endpointConfiguration), new System.ServiceModel.EndpointAddress(remoteAddress))
+        public ConversionClient(EndpointConfiguration endpointConfiguration) : 
+                base(ConversionClient.GetBindingForEndpoint(endpointConfiguration), ConversionClient.GetEndpointAddress(endpointConfiguration))
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public ConversiónClient(EndpointConfiguration endpointConfiguration, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(ConversiónClient.GetBindingForEndpoint(endpointConfiguration), remoteAddress)
+        public ConversionClient(EndpointConfiguration endpointConfiguration, string remoteAddress) : 
+                base(ConversionClient.GetBindingForEndpoint(endpointConfiguration), new System.ServiceModel.EndpointAddress(remoteAddress))
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public ConversiónClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ConversionClient(EndpointConfiguration endpointConfiguration, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(ConversionClient.GetBindingForEndpoint(endpointConfiguration), remoteAddress)
+        {
+            this.Endpoint.Name = endpointConfiguration.ToString();
+            ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
+        }
+        
+        public ConversionClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress)
         {
         }
         
-        public System.Threading.Tasks.Task<double> CelsiusToFahrenheitAsync(double celsius)
+        public System.Threading.Tasks.Task<bool> LoginAsync(ConversionServiceReference1.Credentials credentials)
         {
-            return base.Channel.CelsiusToFahrenheitAsync(celsius);
+            return base.Channel.LoginAsync(credentials);
         }
         
-        public System.Threading.Tasks.Task<double> FahrenheitToCelsiusAsync(double fahrenheit)
+        public System.Threading.Tasks.Task<double> ConvertirCelsiusAFahrenheitAsync(double celsius)
         {
-            return base.Channel.FahrenheitToCelsiusAsync(fahrenheit);
+            return base.Channel.ConvertirCelsiusAFahrenheitAsync(celsius);
+        }
+        
+        public System.Threading.Tasks.Task<double> ConvertirFahrenheitACelsiusAsync(double fahrenheit)
+        {
+            return base.Channel.ConvertirFahrenheitACelsiusAsync(fahrenheit);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
@@ -90,7 +136,7 @@ namespace ConversionServiceReference
         
         private static System.ServiceModel.Channels.Binding GetBindingForEndpoint(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_IConversión))
+            if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_IConversion))
             {
                 System.ServiceModel.BasicHttpBinding result = new System.ServiceModel.BasicHttpBinding();
                 result.MaxBufferSize = int.MaxValue;
@@ -104,27 +150,27 @@ namespace ConversionServiceReference
         
         private static System.ServiceModel.EndpointAddress GetEndpointAddress(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_IConversión))
+            if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_IConversion))
             {
-                return new System.ServiceModel.EndpointAddress("http://localhost:61912/ec.edu.monster.controlador/Conversion.svc");
+                return new System.ServiceModel.EndpointAddress("http://localhost:50176/ec.edu.monster.controlador/Conversion.svc");
             }
             throw new System.InvalidOperationException(string.Format("No se pudo encontrar un punto de conexión con el nombre \"{0}\".", endpointConfiguration));
         }
         
         private static System.ServiceModel.Channels.Binding GetDefaultBinding()
         {
-            return ConversiónClient.GetBindingForEndpoint(EndpointConfiguration.BasicHttpBinding_IConversión);
+            return ConversionClient.GetBindingForEndpoint(EndpointConfiguration.BasicHttpBinding_IConversion);
         }
         
         private static System.ServiceModel.EndpointAddress GetDefaultEndpointAddress()
         {
-            return ConversiónClient.GetEndpointAddress(EndpointConfiguration.BasicHttpBinding_IConversión);
+            return ConversionClient.GetEndpointAddress(EndpointConfiguration.BasicHttpBinding_IConversion);
         }
         
         public enum EndpointConfiguration
         {
             
-            BasicHttpBinding_IConversión,
+            BasicHttpBinding_IConversion,
         }
     }
 }
