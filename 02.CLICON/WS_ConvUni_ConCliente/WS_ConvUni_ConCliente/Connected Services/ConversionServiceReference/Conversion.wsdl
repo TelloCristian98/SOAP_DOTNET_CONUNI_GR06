@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Conversion" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://10.40.19.26:50176/ec.edu.monster.controlador/Conversion.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://10.40.19.26:50176/ec.edu.monster.controlador/Conversion.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://10.40.19.26:50176/ec.edu.monster.controlador/Conversion.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ec.edu.monster.modelo" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IConversion_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IConversion_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConversion_ConvertirCelsiusAFahrenheit_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConvertirCelsiusAFahrenheit" />
+  </wsdl:message>
+  <wsdl:message name="IConversion_ConvertirCelsiusAFahrenheit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConvertirCelsiusAFahrenheitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConversion_ConvertirFahrenheitACelsius_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConvertirFahrenheitACelsius" />
+  </wsdl:message>
+  <wsdl:message name="IConversion_ConvertirFahrenheitACelsius_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConvertirFahrenheitACelsiusResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IConversion">
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConversion/Login" message="tns:IConversion_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConversion/LoginResponse" message="tns:IConversion_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertirCelsiusAFahrenheit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConversion/ConvertirCelsiusAFahrenheit" message="tns:IConversion_ConvertirCelsiusAFahrenheit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConversion/ConvertirCelsiusAFahrenheitResponse" message="tns:IConversion_ConvertirCelsiusAFahrenheit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertirFahrenheitACelsius">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConversion/ConvertirFahrenheitACelsius" message="tns:IConversion_ConvertirFahrenheitACelsius_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConversion/ConvertirFahrenheitACelsiusResponse" message="tns:IConversion_ConvertirFahrenheitACelsius_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IConversion" type="tns:IConversion">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IConversion/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertirCelsiusAFahrenheit">
+      <soap:operation soapAction="http://tempuri.org/IConversion/ConvertirCelsiusAFahrenheit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertirFahrenheitACelsius">
+      <soap:operation soapAction="http://tempuri.org/IConversion/ConvertirFahrenheitACelsius" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Conversion">
+    <wsdl:port name="BasicHttpBinding_IConversion" binding="tns:BasicHttpBinding_IConversion">
+      <soap:address location="http://10.40.19.26:50176/ec.edu.monster.controlador/Conversion.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

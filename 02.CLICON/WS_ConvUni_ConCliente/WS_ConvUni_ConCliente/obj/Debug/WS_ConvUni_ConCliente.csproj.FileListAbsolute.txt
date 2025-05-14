@@ -1,0 +1,21 @@
+C:\Users\Juan F. Reyes\Documents\Visual Studio 2022\Conversion\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.exe.config
+C:\Users\Juan F. Reyes\Documents\Visual Studio 2022\Conversion\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.exe
+C:\Users\Juan F. Reyes\Documents\Visual Studio 2022\Conversion\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.pdb
+C:\Users\Juan F. Reyes\Documents\Visual Studio 2022\Conversion\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.csproj.AssemblyReference.cache
+C:\Users\Juan F. Reyes\Documents\Visual Studio 2022\Conversion\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.csproj.CoreCompileInputs.cache
+C:\Users\Juan F. Reyes\Documents\Visual Studio 2022\Conversion\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.exe
+C:\Users\Juan F. Reyes\Documents\Visual Studio 2022\Conversion\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.pdb
+C:\CONV_UNI\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.exe.config
+C:\CONV_UNI\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.exe
+C:\CONV_UNI\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.pdb
+C:\CONV_UNI\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.csproj.AssemblyReference.cache
+C:\CONV_UNI\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.csproj.CoreCompileInputs.cache
+C:\CONV_UNI\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.exe
+C:\CONV_UNI\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.pdb
+C:\Users\Ordenador\Desktop\SEMESTRES ABRIL-AGO 2025\Arquitectura de Software\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.exe.config
+C:\Users\Ordenador\Desktop\SEMESTRES ABRIL-AGO 2025\Arquitectura de Software\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.exe
+C:\Users\Ordenador\Desktop\SEMESTRES ABRIL-AGO 2025\Arquitectura de Software\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\bin\Debug\WS_ConvUni_ConCliente.pdb
+C:\Users\Ordenador\Desktop\SEMESTRES ABRIL-AGO 2025\Arquitectura de Software\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.csproj.AssemblyReference.cache
+C:\Users\Ordenador\Desktop\SEMESTRES ABRIL-AGO 2025\Arquitectura de Software\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.csproj.CoreCompileInputs.cache
+C:\Users\Ordenador\Desktop\SEMESTRES ABRIL-AGO 2025\Arquitectura de Software\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.exe
+C:\Users\Ordenador\Desktop\SEMESTRES ABRIL-AGO 2025\Arquitectura de Software\02_CONV_UNI_SOAP_DOTNET_REYES\02. CLICON\WS_ConvUni_ConCliente\WS_ConvUni_ConCliente\obj\Debug\WS_ConvUni_ConCliente.pdb
